@@ -5,8 +5,8 @@ using System;
 
 namespace Games.Wars
 {
-	/** 实体数据 */
-    public class EData : PoolItem, IEComponent 
+    /** 实体 控制中心 */
+    public class ECtl : PoolItem, IEComponent 
 	{
         
 

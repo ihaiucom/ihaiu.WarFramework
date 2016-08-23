@@ -2,10 +2,10 @@
 using System.Collections;
 
 
-namespace Games
+namespace Games.Wars
 {
 	/** 单位控制中心 (对外接口，管理决策，集合引用) */
-	public partial class UnitCtl : BaseScript, IEComponent
+    public partial class UnitCtl : ECtl
 	{
 		/** 单位数据 */
 		public UnitData 	unitData;
@@ -28,26 +28,6 @@ namespace Games
 
 
 
-
-
-		/** 重置, 用在对象池 */
-		override public void CReset()
-		{
-			base.CReset();
-
-		}
-		
-		/** 释放,一般用在销毁或对象池释放 */
-		override public void CRelease()
-		{
-			base.CRelease();
-		}
-		
-		/** 销毁内存分配 */
-		override public void CDealloc()
-		{
-			base.CDealloc();
-		}
 
 	}
 }

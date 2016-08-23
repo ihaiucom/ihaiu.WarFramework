@@ -2,10 +2,10 @@
 using System.Collections;
 
 
-namespace Games
+namespace Games.Wars
 {
 	/** 单位代理 (管理美术表现) */
-	public class UnitAgent : EBehaviour 
+    public class UnitAgent : EMonoBehaviour 
 	{
 
 

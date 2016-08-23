@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Games
+namespace Games.Wars
 {
 	/** 战斗玩家联盟 */
 	public class PlayerGroup : BaseScript

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Games
+namespace Games.Wars
 {
 	/** 光环 */
 	public class Haole : Effect 

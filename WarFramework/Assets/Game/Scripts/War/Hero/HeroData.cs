@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 
-namespace Games
+namespace Games.Wars
 {
 	/** 英雄数据 */
 	public class HeroData : EffectData

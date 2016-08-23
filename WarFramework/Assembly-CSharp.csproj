@@ -51,6 +51,7 @@
      <Compile Include="Assets\Game\Scripts\Account\User.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Base\BaseModel.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Base\BaseScript.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Base\PoolItem.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Config\HeroConfig.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Config\ItemConfig.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Config\SkillConfig.cs" />
@@ -61,8 +62,11 @@
      <Compile Include="Assets\Game\Scripts\Core\Model\WarModel.cs" />
      <Compile Include="Assets\Game\Scripts\Game\Game.cs" />
      <Compile Include="Assets\Game\Scripts\Game\GameModel.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\PoolGroupDict_Game.cs" />
      <Compile Include="Assets\Game\Scripts\War\EComponent\EBehaviour.cs" />
+     <Compile Include="Assets\Game\Scripts\War\EComponent\ECtl.cs" />
      <Compile Include="Assets\Game\Scripts\War\EComponent\EData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\EComponent\EMonoBehaviour.cs" />
      <Compile Include="Assets\Game\Scripts\War\EComponent\IEComponent.cs" />
      <Compile Include="Assets\Game\Scripts\War\Effect\Buff.cs" />
      <Compile Include="Assets\Game\Scripts\War\Effect\BuffArg.cs" />
@@ -105,7 +109,6 @@
      <Compile Include="Assets\Game\Scripts\War\WarSceneData.cs" />
      <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\ClassExample.cs" />
      <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\ItemExample.cs" />
-     <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\PoolGroupDict_Game.cs" />
      <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\PrefabExample.cs" />
      <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\TestPrefabEvent.cs" />
      <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\WarGroupExample.cs" />

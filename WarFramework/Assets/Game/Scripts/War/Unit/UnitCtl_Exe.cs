@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Games
+namespace Games.Wars
 {
 	/** 单位控制中心 -- 执行层方法 Exe */
 	public partial class UnitCtl 

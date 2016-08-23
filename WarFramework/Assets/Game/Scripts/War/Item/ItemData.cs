@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-namespace Games
+namespace Games.Wars
 {
 	/** 物品数据 */
 	public class ItemData : EffectData

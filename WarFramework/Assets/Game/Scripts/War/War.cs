@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-namespace Games
+namespace Games.Wars
 {
 	/** 战斗对外接口 */
 	public class War 

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Games
+namespace Games.Wars
 {
 	
 	/** 单位数据 (保存数据) */

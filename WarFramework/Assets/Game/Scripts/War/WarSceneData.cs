@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 
 
-namespace Games
+namespace Games.Wars
 {
 	/** 战斗场景数据 */
 	public class WarSceneData : BaseScript

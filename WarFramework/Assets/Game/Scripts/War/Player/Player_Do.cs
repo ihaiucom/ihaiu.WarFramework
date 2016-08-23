@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Games
+namespace Games.Wars
 {
 	/** 战斗玩家控制中心 -- 决策层方法 Do */
 	public partial class Player 

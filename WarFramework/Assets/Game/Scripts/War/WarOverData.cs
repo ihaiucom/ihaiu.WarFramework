@@ -3,7 +3,7 @@ using System.Collections;
 
 
 
-namespace Games
+namespace Games.Wars
 {
 	/** 战斗结束数据 */
 	public class WarOverData : BaseScript

@@ -18,9 +18,10 @@ namespace Games
 		{
 		}
 		
-		/** 销毁内存分配 */
+		/** 销毁,内存 */
 		virtual public void CDealloc()
 		{
+            
 		}
 	}
 
