@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C6FA5CA2-B1EF-D868-0651-9AFB6754882F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Game\Scripts\Account\Account.cs" />
+     <Compile Include="Assets\Game\Scripts\Account\Role.cs" />
+     <Compile Include="Assets\Game\Scripts\Account\SupplierType.cs" />
+     <Compile Include="Assets\Game\Scripts\Account\User.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Base\BaseModel.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Base\BaseScript.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Config\HeroConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Config\ItemConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Config\SkillConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Config\StageConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Model\HeroModel.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Model\ItemModel.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Model\SkillModel.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Model\WarModel.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Game.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\GameModel.cs" />
+     <Compile Include="Assets\Game\Scripts\War\EComponent\EBehaviour.cs" />
+     <Compile Include="Assets\Game\Scripts\War\EComponent\EData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\EComponent\IEComponent.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\Buff.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\BuffArg.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\BuffConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\BuffData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\Effect.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\EffectArg.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\EffectConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\EffectData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\Haole.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\HaoleArg.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\HaoleConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\HaoleData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\IEffect.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\IEffectArg.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\IEffectConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\IEffectData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Effect\OnceHaole.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Hero\HeroArg.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Hero\HeroData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Item\ItemArg.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Item\ItemData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Player\Player.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Player\PlayerGroup.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Player\Player_Do.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Player\Player_Exe.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Skill\Skill.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Skill\SkillAgent.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Skill\SkillArg.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Skill\SkillData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Unit\UnitAgent.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Unit\UnitCtl.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Unit\UnitCtl_Do.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Unit\UnitCtl_Exe.cs" />
+     <Compile Include="Assets\Game\Scripts\War\Unit\UnitData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\War.cs" />
+     <Compile Include="Assets\Game\Scripts\War\WarEnterData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\WarOverData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\WarScene.cs" />
+     <Compile Include="Assets\Game\Scripts\War\WarSceneData.cs" />
+     <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\ClassExample.cs" />
+     <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\ItemExample.cs" />
+     <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\PoolGroupDict_Game.cs" />
+     <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\PrefabExample.cs" />
+     <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\TestPrefabEvent.cs" />
+     <Compile Include="Assets\Ihaiu\PoolManagerExampleFiles\Scripts\WarGroupExample.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\AbstractObjectPool.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\IPoolItem.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\ObjectPool.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\PoolGroup.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\PoolGroupDict.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\PoolGroup_Prefab.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\PoolManager.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\PrefabPool.cs" />
+     <Compile Include="Assets\Ihaiu\Scripts\PoolManager\ScriptableObjectPool.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5.3.4/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
