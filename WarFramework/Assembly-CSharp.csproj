@@ -51,6 +51,7 @@
      <Compile Include="Assets\Game\Scripts\Account\User.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Base\BaseModel.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Base\BaseScript.cs" />
+     <Compile Include="Assets\Game\Scripts\Core\Base\IScript.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Base\PoolItem.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Config\HeroConfig.cs" />
      <Compile Include="Assets\Game\Scripts\Core\Config\ItemConfig.cs" />
@@ -68,6 +69,7 @@
      <Compile Include="Assets\Game\Scripts\War\EComponent\EData.cs" />
      <Compile Include="Assets\Game\Scripts\War\EComponent\EMonoBehaviour.cs" />
      <Compile Include="Assets\Game\Scripts\War\EComponent\IEComponent.cs" />
+     <Compile Include="Assets\Game\Scripts\War\EComponent\IPause.cs" />
      <Compile Include="Assets\Game\Scripts\War\Effect\Buff.cs" />
      <Compile Include="Assets\Game\Scripts\War\Effect\BuffArg.cs" />
      <Compile Include="Assets\Game\Scripts\War\Effect\BuffConfig.cs" />
@@ -104,6 +106,7 @@
      <Compile Include="Assets\Game\Scripts\War\Unit\UnitData.cs" />
      <Compile Include="Assets\Game\Scripts\War\War.cs" />
      <Compile Include="Assets\Game\Scripts\War\WarEnterData.cs" />
+     <Compile Include="Assets\Game\Scripts\War\WarLaunch.cs" />
      <Compile Include="Assets\Game\Scripts\War\WarOverData.cs" />
      <Compile Include="Assets\Game\Scripts\War\WarScene.cs" />
      <Compile Include="Assets\Game\Scripts\War\WarSceneData.cs" />

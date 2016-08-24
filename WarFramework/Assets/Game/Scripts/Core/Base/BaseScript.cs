@@ -3,25 +3,25 @@ using System.Collections;
 namespace Games
 {
 	#if SCRIPTABLE
-	public class BaseScript : ScriptableObject
+    public class BaseScript : ScriptableObject, IScript
 	#else
-	public class BaseScript 
+    public class BaseScript : IScript
 	#endif
 	{
-		/** 重置, 用在对象池 */
+		/** 重置 */
 		virtual public void CReset()
 		{
 		}
 		
-		/** 释放,一般用在销毁或对象池释放 */
+		/** 释放 */
 		virtual public void CRelease()
 		{
 		}
 		
-		/** 销毁,内存 */
+		/** 销毁 */
 		virtual public void CDealloc()
 		{
-            
+			CRelease ();
 		}
 	}
 
